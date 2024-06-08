@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div>
       <h2 className="title">Cipher Techniques</h2>
-      <h4 className="title">Made with Headache😖😥 by Pranshu</h4>
+      <h4 className="title">Made with Headache 😖😥 by Pranshu</h4>
       <nav>
         <ul>
           <li className={selectedCipher === 'caesar' ? 'active' : ''} onClick={() => setSelectedCipher('caesar')}>Caesar Cipher</li>

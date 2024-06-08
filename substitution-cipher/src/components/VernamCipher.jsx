@@ -119,7 +119,8 @@ const VernamCipher = () => {
           <input
             type="text"
             value={cipherText}
-            readOnly
+                 onChange={(e) => setCipherText(e.target.value)}
+
             className="input"
           />
         </label>

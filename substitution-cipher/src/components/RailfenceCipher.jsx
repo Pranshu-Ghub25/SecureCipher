@@ -105,7 +105,8 @@ const RailfenceCipher = () => {
           className="input"
             type="text"
             value={cipherText}
-            readOnly
+            onChange={(e) => setCipherText(e.target.value)}
+
             style={{ marginLeft: '10px', padding: '5px', width: '300px' }}
           />
         </label>
